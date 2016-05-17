@@ -1,0 +1,33 @@
+*{
+	font-family: "Times New Roman";
+}
+
+#fotocv{
+	border-radius: 50px;
+	height: auto;
+	width:auto;
+	float:right;
+}
+
+#personal_info{
+	border:2px white solid;
+	padding: 5px;
+	margin: 2px white solid;
+	height:auto;
+	width:auto;
+	position:relative;
+	display: inline-block;
+}
+
+#goal{
+	border:100px;
+	height:200px;
+	width:1000px;
+	position:relative;
+	display: inline-block;
+	float: right;
+}
+
+#location{
+	float: right;
+}
