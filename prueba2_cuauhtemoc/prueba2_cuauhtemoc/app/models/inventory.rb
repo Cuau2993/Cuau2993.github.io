@@ -3,5 +3,5 @@ class Inventory < ActiveRecord::Base
 	validates :series, presence:true
 	belongs_to :operation
 
-	scope :unused, -> (Operation.inventory_id) {where(:inventory.id => nil)} 	
+	 	
 end

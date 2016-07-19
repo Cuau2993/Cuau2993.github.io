@@ -12,4 +12,5 @@ class OperationTest < ActiveSupport::TestCase
   	piece_used.inventory_id = true
   	assert piece_used.valid?, "An inventory id number must exist for an operation"
   end
+
 end
