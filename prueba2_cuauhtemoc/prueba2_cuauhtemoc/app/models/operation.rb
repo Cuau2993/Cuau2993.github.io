@@ -1,7 +1,7 @@
 class Operation < ActiveRecord::Base
 	belongs_to :worker
 	has_one :inventory
-
+	has_one :registration, :dependent => :destroy
 
 	scope :pieces, -> (worker_id) {Operation.find(inventory_id).where(worker_id => 1)}
 
