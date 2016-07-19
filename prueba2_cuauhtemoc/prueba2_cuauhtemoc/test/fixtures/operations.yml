@@ -3,11 +3,14 @@
 one:
   job: MyString
   worker_id: 1
+  inventory_id: 1
 
 two:
   job: MyString
   worker_id: 1
+  inventory_id: 1
 
 three:
   job: MyString
   worker_id: 1
+  inventory_id: 1
